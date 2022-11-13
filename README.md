@@ -1,11 +1,12 @@
 # <p align="center">👋Hello!, My name is Issac C.C. 👋</p>
 <p align="center"><img src="https://thumbs.gfycat.com/GoodnaturedFondGaur-size_restricted.gif" alt="Synthwave" height="300" width="500"></p>
 
+<!-- Numero de visita -->
 <h4 align="center">You are the Visitor</h4>
-<p align="center"><img src="https://profile-counter.glitch.me/{YzackZack476}/count.svg" alt="AnhellO :: Visitor's Count" /></p>
+<p align="center"><img src="https://profile-counter.glitch.me/{YzackZack476}/count.svg" alt="YzackZack476 :: Visitor's Count" /></p>
 
+<!-- Mi descripcion -->
 ## <h3>I am:</h3>
-
 ### <img width="25" height="25" src="https://user-images.githubusercontent.com/98198234/201503530-590c9cd2-7486-40a4-a135-5af71dbd285b.png"/> | Full Stack Developer | Data Analytics | Filmmaker | Robotic Engineer | Mechanic | Photographer | <img width="25" height="25" src="https://user-images.githubusercontent.com/98198234/201503530-590c9cd2-7486-40a4-a135-5af71dbd285b.png"/> 
 
 <!-- Barra de separacion -->
@@ -33,6 +34,12 @@
   </a>
   <a href="https://git-scm.com/" target="_blank"> 
     <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> 
+  </a>
+  <a href="https://git-scm.com/" target="_blank"> 
+    <img src="https://cdn-icons-png.flaticon.com/512/5210/5210800.png" alt="photoshop" width="40" height="40"/> 
+  </a>
+  <a href="https://git-scm.com/" target="_blank"> 
+    <img src="https://cdn-icons-png.flaticon.com/512/5210/5210884.png" alt="after effects" width="40" height="40"/> 
   </a>
 </p>
 
