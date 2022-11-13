@@ -47,12 +47,27 @@
 </p>
 
 
-
+<!--  Skills programming -->
 <h4 align="center">Top langs :tongue:</h4>
-<p align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YzackZack476&langs_count=10&theme=tokyonight&layout=compact" alt="AnhellO :: Top Langs" /></p>
+<p align= "center">
+  <img height= "150" src="https://github-readme-stats.vercel.app/api?username=YzackZack476&theme=react&show_icons=true&include_all_commits=true" />
+  <img height= "150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YzackZack476&theme=react&layout=compact" />
+</p>
 
+### 🧰 Frameworks and Libraries
 
+<p>
+<!--     <a href="#"><img alt="Keras" src="https://img.shields.io/badge/Keras%20-%23D00000.svg?logo=Keras&logoColor=white"></a> -->
+<!--     <a href="#"><img alt="NumPy" src="https://img.shields.io/badge/Numpy%20-%23013243.svg?logo=numpy&logoColor=white"></a> -->
+    <a href="#"><img alt="Flask" src="https://img.shields.io/badge/Flask-092E20?style=for-the-badge&logo=flask&logoColor=white"></a>
+    <a href="#"><img alt="Angular" src="https://img.shields.io/badge/Angular-092E20?style=for-the-badge&logo=angular&logoColor=white"></a>
+    <a href="#"><img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"></a>
+    <a href="#"><img alt="Pandas" src="https://img.shields.io/badge/Pandas%20-%23150458.svg?logo=pandas&logoColor=white"></a>
+<!--     <a href="#"><img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow%20-%23FF6F00.svg?logo=TensorFlow&logoColor=white"></a> -->
+<!--     <a href="#"><img alt="React Native" src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"></a> -->
+    <a href="#"><img alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"></a>
 
+</p>
 - 👀 I’m interested
 - 🌱 I’m currently learning React
 - 💞️ I’m looking to collaborate on ...
