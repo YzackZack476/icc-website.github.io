@@ -73,6 +73,21 @@
     <a href="#"><img alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"></a>
 </p>
 
+
+<!-- My jobs -->
+## <picture><img src = "https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/about_me.gif" width = 50px></picture>  <b>More about my projects</b>
+
+<img src="https://cdn-icons-png.flaticon.com/512/745/745752.png" width ="50"><b>ShortFilms</b>
+* <a href="https://youtu.be/ouXezJ8Wgf4" target="_blanck">REMANENTE</a>
+
+
+
+
+
+
+
+
+
 <!-- Contact with me -->
 <h3 align="center" > <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30" height="30" style="margin-right: 10px;">Connect with me 🤝 </h3>
 
@@ -90,7 +105,7 @@
 		<img src="https://img.icons8.com/doodle/1x/twitter-squared--v2.png" ></a> -->
 	<a style="margin-left: 10px;" target="_blank" href="https://www.youtube.com/channel/UC-ZdNkKNHC6KguDqNFKO2Nw?view_as=subscriber">
 		<img src="https://img.icons8.com/doodle/1x/youtube--v2.png" ></a>
-	<a style="margin-left: 5px;" target="_blank" href="https://github.com/100rabhcsmc/Me.io/blob/master/01SaurabhChavanReactNativeResume.pdf">
+	<a style="margin-left: 5px;" target="_blank" href="https://github.com/YzackZack476/YzackZack476/blob/836effe535b4022ac83c99b1fd54ed9d52fa58cc/src/CV.png">
 		<img src="https://img.icons8.com/plasticine/0.5x/resume.png" ></a>
 </div>
 </p>
