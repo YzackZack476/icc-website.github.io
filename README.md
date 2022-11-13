@@ -79,6 +79,10 @@
 
 <img src="https://cdn-icons-png.flaticon.com/512/745/745752.png" width ="50"><b>ShortFilms</b>
 * <a href="https://youtu.be/ouXezJ8Wgf4" target="_blanck">REMANENTE</a>
+* <a href="https://youtu.be/ZTXHlybyxQE" target="_blanck">A TIEMPO</a>
+* <a href="https://youtu.be/i5TP1_cG8-E" target="_blanck">EN BLANCO Y NEGRO SIN EL BLANCO</a>
+* <a href="https://youtu.be/SmtaxlThpK4" target="_blanck">MINI DOCUMENTAL REDES NEURONALES</a>
+* <a href="https://youtu.be/mghQe3J5L70" target="_blanck">JOE DYLAN (TEASER)</a>
 
 
 
