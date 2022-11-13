@@ -14,7 +14,9 @@
 <br/>
 
 <!-- Skills con programas -->
-<h3 align="center">Languages and Tools:</h3>
+<h3 align="center">
+  <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25">
+  <b>Languages and Tools:</b></h3>
 
 <p align="center"> 
   <a href="https://www.w3.org/html/" target="_blank"> 
@@ -48,7 +50,10 @@
 
 
 <!--  Skills programming -->
-<h4 align="center">Top langs :tongue:</h4>
+<h4 align="center">
+  <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="25"> 
+  <b>Top langs</b>
+</h4>
 <p align= "center">
   <img height= "150" src="https://github-readme-stats.vercel.app/api?username=YzackZack476&theme=react&show_icons=true&include_all_commits=true" />
   <img height= "150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YzackZack476&theme=react&layout=compact" />
@@ -66,8 +71,33 @@
 <!--     <a href="#"><img alt="TensorFlow" src="https://img.shields.io/badge/TensorFlow%20-%23FF6F00.svg?logo=TensorFlow&logoColor=white"></a> -->
 <!--     <a href="#"><img alt="React Native" src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"></a> -->
     <a href="#"><img alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"></a>
-
 </p>
+
+<!-- Contact with me -->
+<h3 align="center" > <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30" height="30" style="margin-right: 10px;">Connect with me 🤝 </h3>
+
+<p align="center">
+<div align="center"  class="icons-social" style="margin-left: 10px;">
+	<a style="margin-left: 10px;"  target="_blank" href="www.linkedin.com/in/issac-corona-cordoba">
+		<img src="https://img.icons8.com/doodle/40/000000/linkedin--v2.png"></a>
+     <a style="margin-left: 10px;" target="_blank" href="https://github.com/YzackZack476">
+		<img src="https://img.icons8.com/doodle/40/000000/github--v1.png"></a>
+	<!-- <a style="margin-left: 10px;" target="_blank" href="https://stackoverflow.com/users/12053852/saurabh-chavan?tab=profile">
+		<img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/40/000000/external-stack-overflow-is-a-question-and-answer-site-for-professional-logo-color-tal-revivo.png"></a> -->
+     <a style="margin-left: 10px;" target="_blank" href="https://www.instagram.com/yzackcc476/">
+		<img src="https://img.icons8.com/doodle/40/000000/instagram-new--v2.png"></a>
+	<!-- <a style="margin-left: 10px;" target="_blank" href="https://twitter.com/100rabhcsmc">
+		<img src="https://img.icons8.com/doodle/1x/twitter-squared--v2.png" ></a> -->
+	<a style="margin-left: 10px;" target="_blank" href="https://www.youtube.com/channel/UC-ZdNkKNHC6KguDqNFKO2Nw?view_as=subscriber">
+		<img src="https://img.icons8.com/doodle/1x/youtube--v2.png" ></a>
+	<a style="margin-left: 5px;" target="_blank" href="https://github.com/100rabhcsmc/Me.io/blob/master/01SaurabhChavanReactNativeResume.pdf">
+		<img src="https://img.icons8.com/plasticine/0.5x/resume.png" ></a>
+</div>
+</p>
+
+
+
+
 - 👀 I’m interested
 - 🌱 I’m currently learning React
 - 💞️ I’m looking to collaborate on ...
