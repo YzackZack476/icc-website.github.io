@@ -1,0 +1,25 @@
+*{
+    background-color: #202020;
+    font-family: monospace;
+    color: #fff;
+    font-size: 10px;
+}
+.Grid{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: minmax(150px,150px);
+    gap: 1.5rem;
+}
+.Grid div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Grid div > *{
+    font-size: 2rem;
+}
+
+.Grid div:hover{
+    background-color: #4e4d4d;
+}
