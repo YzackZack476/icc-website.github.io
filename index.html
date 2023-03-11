@@ -1,19 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/index.css">
-    <title>Yzackzack</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/87edc8fc31.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="img/icon.png">
+    <title>BOX WRAPPER</title>
 </head>
 <body>
 
-    <center><input type="text" id="typing"></center>
-    <div id="Main-Grid" class="Grid">
-    </div>
+    <div class="mcontainer">
+        <!-- Primera fila -->
+        <div class="mcontainer__item"><h1>PROJECT ONE</h1></div>
+        <div class="mcontainer__item"><h1>PROJECT TWO</h1></div>
+        <div class="mcontainer__item"><h1>PROJECT THREE</h1></div>
 
-    <!-- Execute this after load -->
-    <script src="scripts/index.js"></script>
+        <!-- Srgunda fila -->
+        <div class="mcontainer__item mcontainer__item--multilevel">
+            <div class="multilevel__subitem" id="sub__uno">
+                <a href="https://github.com/YzackZack476/monkey-js.git" target="_blank" title="Click to see: Monkey JS">
+                    <img src="./img/logos/monkey js.png"></a>
+            </div>
+            <div class="multilevel__subitem" id="sub__dos"><h2>2</h2></div>
+            <div class="multilevel__subitem" id="sub__tres"><h2>3</h2></div>
+
+            <div class="multilevel__subitem" id="sub__cuatro"><h2>4</h2></div>
+            <div class="multilevel__subitem" id="sub__cinco"><h2>5</h2></div>
+            <div class="multilevel__subitem" id="sub__seis"><h2>6</h2></div>
+        </div>
+        <div class="mcontainer__item mcontainer__item--principal">
+            <div class="cardpresentation">
+                <div id="cardpresentation__left">
+                    <img src="img/me.jpg">
+                </div>
+                <div id="cardpresentation__right">
+                    <h3>Hi everybody!</h3>
+                    <p>
+                        My name is Issac, robotic engineer and technical programmer; with experience in software development working as full stack developer & data analytics.
+                        <br><br>
+                        On this dashboard I will show you some of my projects. Do you want to take a look?
+                    </p>
+                    <div id="links">
+                        <a href="mailto:ikiccg476@gmail.com" target="_blank" title="ikiccg476@gmail.com">
+                            <i class="fa-solid fa-at"></i></a>
+                        <a href="https://www.linkedin.com/in/issac-corona-cordoba/" target="_blank" title="Issac Corona Córdoba">
+                            <i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/YzackZack476/YzackZack476.github.io" target="_blank" title="YzackZack476">
+                            <i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/yzackcc476/" target="_blank" title="yzackcc">
+                            <i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/c/yzackcool" target="_blank" title="YzackZack">
+                            <i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mcontainer__item"><h1>PROJECT SIX</h1></div>
+
+        <!-- Tercera fila -->
+        <div class="mcontainer__item"><h1>PROJECT SEVEN</h1></div>
+        <div class="mcontainer__item"><h1>PROJECT EIGHT</h1></div>
+        <div class="mcontainer__item"><h1>PROJECT NINE</h1></div>
+    </div>
+    
 </body>
 </html>

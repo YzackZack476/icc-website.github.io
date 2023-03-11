@@ -1,0 +1,249 @@
+/* ▇▇▇▇▇▇   BOX WRAPPER STYLE ▇▇▇▇▇ */
+/* 
+*   1.- Set default all
+*   2.- Contenedor principal
+*   3.- Elementos del contendor
+*   4.- Contenedor multilevel
+*       4.1.- Monekey js 
+*   5.- Tarjeta de presentacion
+*/
+
+@import url(animations.css);
+@import url(vars.css);
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+/*+ ▃▃▃ 1.- Set default all ▃▃▃*/
+*{
+    top: 0;
+    left: 0;
+    margin-top: 0;
+    margin-left: 0;
+    font-family: 'Quicksand';
+    font-weight: 300;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    cursor: pointer;
+    cursor: url('/img/cursor.cur');
+    background-color: rgb(43, 38, 38);
+    /* overflow-x: hidden; */
+    /* overflow-y: hidden; */
+}
+
+
+/*+ ▃▃▃ 2.- Contenedor principal ▃▃▃*/
+
+.mcontainer{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    
+    gap: 0;
+    grid-auto-columns: 1fr;
+    
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+
+    transition: all 500ms ease-in-out;
+}
+
+
+/*+ ▃▃▃ 3.- Elementos del contendor ▃▃▃*/
+
+.mcontainer__item{
+    font-size: 1rem;
+    transition: all 300ms ease-in-out;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mcontainer__item{
+    color: white;
+    background-image: url('../img/boxes.jpg');
+    background-size: cover;
+}
+
+.mcontainer__item:nth-child(5){background-image: url('../img/main-box.jpg');}
+/* .mcontainer__item:nth-child(2){}
+.mcontainer__item:nth-child(3){}
+.mcontainer__item:nth-child(4){}
+.mcontainer__item:nth-child(6){}
+.mcontainer__item:nth-child(7){}
+.mcontainer__item:nth-child(8){}
+.mcontainer__item:nth-child(9){} */
+
+
+.mcontainer__item:hover{
+    animation-name: get_big;
+    animation-duration: 400ms;
+    animation-timing-function: linear;
+    animation-iteration-count: inherit;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    z-index: 1;
+}
+
+.mcontainer__item--principal:hover{
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255,.9);
+}
+
+.mcontainer:hover .mcontainer__item:not(:hover){
+    opacity: 0.7;
+    transform: scale(0.95);
+}
+
+
+/*+ ▃▃▃ 4.- Contenedor multilevell ▃▃▃*/
+
+.mcontainer__item--multilevel{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: repeat(3, 1fr);
+    grid-template-areas: "uno uno dos"
+                         "tres tres dos"
+                         "cuatro cinco seis";
+    background-image:none;
+}
+
+.mcontainer__item--multilevel > *{
+    transition: all 300ms ease-in-out;
+    text-align: center;
+}
+
+.mcontainer__item--multilevel>*:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+.mcontainer__item--multilevel:hover>*:not(:hover){
+    opacity: 0.5;
+}
+
+#sub__uno{grid-area: uno; width: 100%; height: 100%;}
+#sub__dos{grid-area: dos; width: 100%; height: 100%; background-color: rgb(35, 35, 35);}
+#sub__tres{grid-area: tres; width: 100%; height: 100%; background-color: rgb(35, 35, 35);}
+#sub__cuatro{grid-area: cuatro; width: 100%; height: 100%; background-color: rgb(35, 35, 35);}
+#sub__cinco{grid-area: cinco; width: 100%; height: 100%; background-color: rgb(35, 35, 35);}
+#sub__seis{grid-area: seis; width: 100%; height: 100%; background-color: rgb(35, 35, 35);}
+
+/** ▃ 4.1.- Monekey js ▃*/
+#sub__uno{
+    position: relative;
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(247, 182, 28);
+}
+
+#sub__uno a:hover{
+    animation-name: biting;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#sub__uno a > img{
+    width: 5rem;
+    height: 5rem;
+    object-fit: contain;  
+}
+
+
+
+/*+ ▃▃▃ 5.- Tarjeta de presentacion ▃▃▃*/
+.cardpresentation{
+    top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: scroll;
+}
+
+/*@>> left */
+#cardpresentation__left{
+    position: relative;
+    display: inline-block;
+}
+
+#cardpresentation__left img{
+    width: var(--imagesize__width);
+    height: var(--imagesize__height);
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#cardpresentation__left::before{
+    content: "";
+    position: absolute;
+    
+    width: var(--imagesize__width);
+    height: var(--imagesize__height); 
+    
+    top: -.4rem;
+    left: -.4rem;
+   
+
+    border-radius: 50%;
+    border: var(--imageborder) solid transparent;
+    border-top-color: rgba(0, 183, 255,.7);
+    border-right-color: rgba(255, 0, 157, 0.7);
+    border-bottom-color: rgba(60, 255, 0, 0.7);
+    border-left-color: rgba(255, 255, 255, 0.7);
+
+    animation: image_loading;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    z-index: 1;
+}
+
+/*@>> Right */
+#cardpresentation__right{
+    width: 50%;
+    height: 10rem;
+    padding-left: 2rem;
+    color: white;
+    text-align: justify;
+    border-left: 5px solid rgb(160, 153, 153);
+}
+
+/*@>> Icons */
+#cardpresentation__right #links{
+    padding-bottom:4rem;
+}
+
+#links a{color: white;}
+
+#links a>*{
+    margin-right: 1rem;
+    transition: all 300ms ease-in-out;
+}
+
+#links a>*:hover{
+    cursor: pointer;
+    color: lightskyblue;
+    transform: scale(1.4) rotate(360deg);
+}
+
+
+
+

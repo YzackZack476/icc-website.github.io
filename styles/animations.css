@@ -1,0 +1,41 @@
+/* ▇▇▇▇▇▇   BOX WRAPPER ANIMATIONS ▇▇▇▇▇ */
+/* 
+%       1.- Hover sobre items
+%       2.- Animacion sobre imagen
+%       3.- Animacion sobre
+*/
+
+
+/*+ ▃▃▃  1.- Hover sobre items ▃▃▃*/
+@keyframes get_big {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.4);
+    }
+    100%{
+        transform: scale(1.3);
+    }
+}
+
+/*+ ▃▃▃  2.- Animacion sobre imagen ▃▃▃*/
+@keyframes image_loading {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+/*+ ▃▃▃  3.- Animacion sobre sub items ▃▃▃*/
+@keyframes biting {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
