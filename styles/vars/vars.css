@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
+:root{
+    --imagesize__width:10rem;
+    --imagesize__height:10rem;
+    --imageborder: 0.4rem;
+    --font-size-base:10px;
+    --font-weight-base:300;
+    --font-family-base:'Quicksand';
+
+    --black-color-primary:#131313;
+    --white-color-primary:rgb(198, 195, 195);
+    --gray-color-primary:rgb(103 108 112);
+
+    --black-color-secondary:#1d1c1c;
+}

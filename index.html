@@ -1,69 +1,87 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
-    <script src="https://kit.fontawesome.com/87edc8fc31.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/png" href="img/icon.png">
-    <title>BOX WRAPPER</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/aos.js" defer="true"></script>
+    <script src="scripts/autoscroll.js" defer="true"></script>
+    <script src="scripts/auto_description.js" defer="true"></script>
+    <script src="scripts/player.js" defer="true"></script>
+    <script src="https://kit.fontawesome.com/044655bfe8.js" crossorigin="anonymous"></script>
+    <title>My profile</title>
 </head>
 <body>
-
-    <div class="mcontainer">
-        <!-- Primera fila -->
-        <div class="mcontainer__item"><h1>PROJECT ONE</h1></div>
-        <div class="mcontainer__item"><h1>PROJECT TWO</h1></div>
-        <div class="mcontainer__item"><h1>PROJECT THREE</h1></div>
-
-        <!-- Srgunda fila -->
-        <div class="mcontainer__item mcontainer__item--multilevel">
-            <div class="multilevel__subitem" id="sub__uno">
-                <a href="https://github.com/YzackZack476/monkey-js.git" target="_blank" title="Click to see: Monkey JS">
-                    <img src="./img/logos/monkey js.png"></a>
-            </div>
-            <div class="multilevel__subitem" id="sub__dos"><h2>2</h2></div>
-            <div class="multilevel__subitem" id="sub__tres"><h2>3</h2></div>
-
-            <div class="multilevel__subitem" id="sub__cuatro"><h2>4</h2></div>
-            <div class="multilevel__subitem" id="sub__cinco"><h2>5</h2></div>
-            <div class="multilevel__subitem" id="sub__seis"><h2>6</h2></div>
-        </div>
-        <div class="mcontainer__item mcontainer__item--principal">
-            <div class="cardpresentation">
-                <div id="cardpresentation__left">
-                    <img src="img/me.jpg">
+    <div class="slices-container">
+        <section class="slice" id="chapter1">
+            <div class="slice__body">
+                <div>
+                    <!-- Here Insert Menssagge -->
+                    <!-- <h1 class="body__title" 
+                        data-aos="fade"
+                        data-aos-delay="400"
+                        data-aos-once="false">Hey!</h1> -->
                 </div>
-                <div id="cardpresentation__right">
-                    <h3>Hi everybody!</h3>
-                    <p>
-                        My name is Issac, robotic engineer and technical programmer; with experience in software development working as full stack developer & data analytics.
-                        <br><br>
-                        On this dashboard I will show you some of my projects. Do you want to take a look?
-                    </p>
-                    <div id="links">
-                        <a href="mailto:ikiccg476@gmail.com" target="_blank" title="ikiccg476@gmail.com">
-                            <i class="fa-solid fa-at"></i></a>
-                        <a href="https://www.linkedin.com/in/issac-corona-cordoba/" target="_blank" title="Issac Corona Córdoba">
-                            <i class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://github.com/YzackZack476/YzackZack476.github.io" target="_blank" title="YzackZack476">
-                            <i class="fa-brands fa-github"></i></a>
-                        <a href="https://www.instagram.com/yzackcc476/" target="_blank" title="yzackcc">
-                            <i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://www.youtube.com/c/yzackcool" target="_blank" title="YzackZack">
-                            <i class="fa-brands fa-youtube"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="mcontainer__item"><h1>PROJECT SIX</h1></div>
 
-        <!-- Tercera fila -->
-        <div class="mcontainer__item"><h1>PROJECT SEVEN</h1></div>
-        <div class="mcontainer__item"><h1>PROJECT EIGHT</h1></div>
-        <div class="mcontainer__item"><h1>PROJECT NINE</h1></div>
+                <a class="body__button" 
+                   data-aos="fade-in" 
+                   data-aos-delay="600"
+                   data-aos-once="false" 
+                   href="#chapter2">next</a>
+
+                <h3 
+                   class="body__leyend"
+                   data-aos="fade-in" 
+                   data-aos-offset="200"
+                   data-aos-delay="600"
+                   data-aos-easing="ease-in-out"
+                   data-aos-mirror="true"
+                   data-aos-once="false">The beging of the end.</h3>
+            </div>
+        </section>
+        <section class="slice" id="chapter2">
+            <div class="slice__body">
+                <h1 class="body__title">Chapter 2</h1>
+                <a class="body__button" href="#chapter3">next</a>
+                <h3 
+                    class="body__leyend"
+                    data-aos="flip-left" 
+                    data-aos-delay="200">We still are in time.
+                </h3>
+            </div>
+        </section>
+        <section class="slice" id="chapter3">
+            <div class="slice__body">
+                <h1 class="body__title black">Chapter 3</h1>
+                <a class="body__button" href="#chapter1">next</a>
+                <h3 
+                    class="body__leyend black"
+                    data-aos="zoom-in-up" data-aos-delay="200">Fight an win.
+                </h3>
+            </div>
+        </section>
     </div>
-    
+
+    <div class="player">
+        <!-- Button play/pause -->
+        <label>
+            <input type="checkbox" onclick="setPlayPauseState('player__bntplay')" id="player__bntplay">
+            <i class="fa-solid fa-forward-step"></i>
+        </label>
+        <!-- Lapse Timeline -->
+        <div class="line_time">
+            <div class="lapse"></div>
+            <div class="base"></div>
+        </div>
+        <!-- Current Time -->
+        <h1 id="current_time">00:00</h1>
+        <audio id="player" controls>
+            <source src="song/Six Seasons - Unicorn Heads.mp3" type="audio/mp3">
+        </audio>
+    </div>
 </body>
 </html>
