@@ -3,6 +3,7 @@
 %       1.- Hover sobre items
 %       2.- Animacion sobre imagen
 %       3.- Animacion sobre
+%       4.- Animacion blinding
 */
 
 
@@ -37,5 +38,15 @@
     }
     to{
         transform: scale(1.1);
+    }
+}
+
+/*+ ▃▃▃  4.- Animacion blinding ▃▃▃*/
+@keyframes blinding {
+    from{
+        background-color: var(--white-color-primary);
+    }to{
+        background-color: rgb(255, 234, 76);
+        box-shadow: 0 0 10px white, 0 0 7px rgb(255, 234, 76);
     }
 }

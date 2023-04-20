@@ -11,7 +11,6 @@
     <script src="scripts/aos.js" defer="true"></script>
     <script src="scripts/autoscroll.js" defer="true"></script>
     <script src="scripts/auto_description.js" defer="true"></script>
-    <script src="scripts/player.js" defer="true"></script>
     <script src="https://kit.fontawesome.com/044655bfe8.js" crossorigin="anonymous"></script>
     <title>My profile</title>
 </head>
@@ -66,22 +65,21 @@
         </section>
     </div>
 
-    <div class="player">
-        <!-- Button play/pause -->
+
+    <!-- <div class="player">
         <label>
             <input type="checkbox" onclick="setPlayPauseState('player__bntplay')" id="player__bntplay">
             <i class="fa-solid fa-forward-step"></i>
         </label>
-        <!-- Lapse Timeline -->
         <div class="line_time">
             <div class="lapse"></div>
             <div class="base"></div>
         </div>
-        <!-- Current Time -->
         <h1 id="current_time">00:00</h1>
-        <audio id="player" controls>
-            <source src="song/Six Seasons - Unicorn Heads.mp3" type="audio/mp3">
-        </audio>
-    </div>
+    </div> -->
+    <audio id="player" autoplay>
+        <source src="song/Six Seasons - Unicorn Heads.mp3" type="audio/mp3">
+    </audio>
+
 </body>
 </html>
