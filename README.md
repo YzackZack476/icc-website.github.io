@@ -1,5 +1,5 @@
 # <p align="center">👋Hello!, My name is Issac C.C. 👋</p>
-[Take a look](https://yzackzack476.github.io/){:target="_blank" rel="noopener"}
+[Take a look](https://yzackzack476.github.io/){:target="_blank"}
 
 <p align="center"><img src="https://thumbs.gfycat.com/GoodnaturedFondGaur-size_restricted.gif" alt="Synthwave" height="300" width="500"></p>
 
