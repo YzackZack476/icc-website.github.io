@@ -1,5 +1,9 @@
 # <p align="center">👋Hello!, My name is Issac C.C. 👋</p>
 <a href="https://yzackzack476.github.io/" target="_blank">Take a look to my website</a>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7146ef8aaca6cf32a79c20f1edeb04268784ac15
 <p align="center"><img src="https://thumbs.gfycat.com/GoodnaturedFondGaur-size_restricted.gif" alt="Synthwave" height="300" width="500"></p>
 
 <!-- Numero de visita -->
