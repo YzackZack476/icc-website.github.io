@@ -4,6 +4,7 @@
 %       2.- Animacion sobre imagen
 %       3.- Animacion sobre
 %       4.- Animacion blinding
+%       5.- Animacion redes
 */
 
 
@@ -48,5 +49,14 @@
     }to{
         background-color: rgb(255, 234, 76);
         box-shadow: 0 0 10px white, 0 0 7px rgb(255, 234, 76);
+    }
+}
+
+/*+ ▃▃▃  5.- Animacion redes ▃▃▃*/
+@keyframes hover_icons {
+    from{
+        transform: rotate(0) scale(1);
+    }to{
+        transform: rotate(360deg) scale(1.3);
     }
 }

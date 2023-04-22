@@ -2,15 +2,13 @@
 function sleep(delay) {
     return new Promise(resolve=>setTimeout(resolve,delay));
 }
-
+const $c1_body_title = document.getElementById('chapter1').querySelectorAll('div')[1];
 const base_template = `<h1  class="body__title"
                             data-aos="fade"
                             data-aos-delay="400"
                             data-aos-once="false">
                             MESSAGE
                         </h1>`;
-
-const $c1_body_title = document.getElementById('chapter1').querySelectorAll('div')[1];
 async function setMessages(messages_array){
     let message, time;
     for(let i=0; i<messages_array.length; i++){
@@ -20,7 +18,6 @@ async function setMessages(messages_array){
     }
     return new Promise(resolve=>resolve())
 }
-
 function volume_down(){
     const $player = document.getElementById('player');
     const set_volume = setInterval(()=>{

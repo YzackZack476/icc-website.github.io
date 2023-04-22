@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 :root{
     --imagesize__width:10rem;
     --imagesize__height:10rem;
@@ -12,4 +14,10 @@
     --gray-color-primary:rgb(103 108 112);
 
     --black-color-secondary:#1d1c1c;
+
+    --chapter2-left-backlog-color:#3C486B;
+    --chapter2-right-backlog-color:#F45050;
+    --font-family-netwoks: 'Quicksand', sans-serif;
+    --networks-container-width:40rem;
+    --networks-container-height:27rem;
 }
