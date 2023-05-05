@@ -29,5 +29,3 @@ body{
     overflow-y: scroll;
     background-color: rgb(217, 210, 210);
 }
-
-.black{color:var(--black-color-primary)}

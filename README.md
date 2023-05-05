@@ -1,5 +1,5 @@
 # <p align="center">👋Hello!, My name is Issac C.C. 👋</p>
-<a href="https://yzackzack476.github.io/icc-website.github.io/" target="_blank">Take a look to my website</a>
+<a href="https://yzackzack476.github.io/" target="_blank">Take a look to my website</a>
 
 <p align="center"><img src="https://thumbs.gfycat.com/GoodnaturedFondGaur-size_restricted.gif" alt="Synthwave" height="300" width="500"></p>
 

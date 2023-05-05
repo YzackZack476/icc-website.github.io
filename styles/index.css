@@ -91,8 +91,7 @@
 /*+ 5.- chapter 2 */
 /*+ 6.- chapter 3 */
 #chapter1{background-color: rgb(25, 25, 25 );}
-/* #chapter2{background-color: #032e36;} */
-#chapter3{background-color: rgb(255, 215, 0);}
+#chapter3{background-color: #088395;}
 
 
 
@@ -163,3 +162,78 @@
 }
 
 .body__networks li a:hover{color: aqua;}
+
+
+
+/*+ 6.- chapter 3 */
+#chapter3{
+    position: relative;
+}
+
+#chapter3 .slice__body{
+    position: absolute;
+    background: transparent;
+    z-index: 1;
+}
+
+#chapter3 .body__title{
+    color:#002B5B;
+    font-weight: 400;
+}
+
+#chapter3 .body__leyend{color: #002B5B;font-weight: 500;}
+
+#chapter3 .body__button{
+    background-color: #F9D949;
+}
+
+/** Object skill */
+#chapter3 .skill{
+    top: 50%;
+    left: 50%;
+    width: var(--chapter3-radius-distance-skill);
+    height: var(--chapter3-radius-distance-skill);
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: self-end;
+    transform-origin: top left;
+    z-index: 0;
+    background-color: transparent;
+}
+
+/** Rotations */
+#chapter3 .skill#skill_1{
+    transform: rotate(var(--chapther3-rotate-skill_1));
+}
+
+    #skill_1 .skill__content{
+        width: var(--chapter3-diameter-circle-skill);
+        height: var(--chapter3-diameter-circle-skill);
+        background-color: var(--chapter3-skill-circle-color);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        transform: rotate(var(--chapther3-rotate-inverted-skill_1));
+    }
+    #skill_1 .skill__content span{
+        width: 12rem;
+        height: 12rem;
+        position: absolute;
+        background: none;
+        top: -1rem;
+        left: -1rem;
+        border-radius: 50%;
+        border: 5px solid red;
+    }
+
+    #skill_1 .skill__content h1{
+        font-size: 3rem;
+        font-weight: 500;
+        color: black;
+        background:none;
+        font-family: var(--font-family-base);
+    }
+
