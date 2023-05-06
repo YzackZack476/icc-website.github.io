@@ -91,7 +91,7 @@
 /*+ 5.- chapter 2 */
 /*+ 6.- chapter 3 */
 #chapter1{background-color: rgb(25, 25, 25 );}
-#chapter3{background-color: #088395;}
+#chapter3{background-color: #393646;}
 
 
 
@@ -164,76 +164,99 @@
 .body__networks li a:hover{color: aqua;}
 
 
-
-/*+ 6.- chapter 3 */
+/*+▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃ [CHAPTER 3] ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃  */
 #chapter3{
     position: relative;
 }
-
+/** ▃▃ CONTENT ▃▃ */
 #chapter3 .slice__body{
     position: absolute;
     background: transparent;
-    z-index: 1;
+    z-index: 2;
 }
 
 #chapter3 .body__title{
-    color:#002B5B;
+    color:#F4EEE0;
     font-weight: 400;
 }
 
-#chapter3 .body__leyend{color: #002B5B;font-weight: 500;}
+#chapter3 .body__leyend{color: #F4EEE0;font-weight: 500;}
+#chapter3 .body__button{background-color: #576CBC; color: #F4EEE0;}
 
-#chapter3 .body__button{
-    background-color: #F9D949;
-}
-
-/** Object skill */
-#chapter3 .skill{
-    top: 50%;
-    left: 50%;
-    width: var(--chapter3-radius-distance-skill);
-    height: var(--chapter3-radius-distance-skill);
+/** ▃▃ SKILLS ▃▃ */
+#chapter3 .skills_layout{
     position: absolute;
-    display: flex;
-    justify-content: flex-end;
-    align-items: self-end;
-    transform-origin: top left;
-    z-index: 0;
-    background-color: transparent;
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(7,1fr);
+    gap: 0;
 }
+    /** ▃▃ SKILL INDIVIDUAL ▃▃ */
+    .skill_wrapper{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        position: relative;
+        width: 14rem;
+        height: 14rem;
+    }
 
-/** Rotations */
-#chapter3 .skill#skill_1{
-    transform: rotate(var(--chapther3-rotate-skill_1));
-}
+    .skill_percent{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
 
-    #skill_1 .skill__content{
-        width: var(--chapter3-diameter-circle-skill);
-        height: var(--chapter3-diameter-circle-skill);
-        background-color: var(--chapter3-skill-circle-color);
-
+    .skill_data_detail{
+        position: absolute;
+        background-color: transparent;
+        width: 100%;
+        height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        border-radius: 50%;
-        transform: rotate(var(--chapther3-rotate-inverted-skill_1));
+        flex-direction: column;
     }
-    #skill_1 .skill__content span{
-        width: 12rem;
-        height: 12rem;
-        position: absolute;
-        background: none;
-        top: -1rem;
-        left: -1rem;
-        border-radius: 50%;
-        border: 5px solid red;
+    .skill_data_detail > * {
+        margin: 0;
+        top: 0;
+        left: 0;
+        color: #F4EEE0;
     }
 
-    #skill_1 .skill__content h1{
-        font-size: 3rem;
-        font-weight: 500;
-        color: black;
-        background:none;
-        font-family: var(--font-family-base);
+    .skill_data_detail .percent{
+        font-family: 'FontAwesome';
+        font-size: 3.3rem;
+    }
+
+    .skill_data_detail .skill_name {
+        font-size: 1.7rem;
+        font-weight: 700;
+        color: rgb(169, 169, 169);
+    }
+
+    .skill_percent svg{
+        width: 100%;
+        height: 100%;
+    }
+
+    .skill_percent circle{
+        fill: transparent;
+        stroke: rgb(66, 66, 66);
+        stroke-width: 5;
+    }
+    .skill_percent circle:nth-child(2){
+        fill: transparent;
+        stroke: rgb(23, 204, 83);
+        stroke-width: 4;
+        stroke-dasharray: 300;
+        stroke-dashoffset:300;
+        animation-name: load-skill;
+        animation-timing-function: ease-in-out;
+        animation-delay: 300ms;
+        animation-duration: 800ms;
+        animation-fill-mode: forwards;
     }
 
