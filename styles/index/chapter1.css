@@ -1,0 +1,10 @@
+/*+  ▃▃▃▃▃▃[INDICE]▃▃▃▃▃▃ */ 
+/*+ 1.- Slider background 
+*/
+
+/** Slider Background color  */
+#chapter1 
+    .Slider__background--black{
+        background-color:var(--black-color-primary);
+        z-index: 1;
+    }

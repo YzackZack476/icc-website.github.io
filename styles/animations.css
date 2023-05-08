@@ -5,7 +5,6 @@
 %       3.- Animacion sobre
 %       4.- Animacion blinding
 %       5.- Animacion redes
-%       6.- Animacion skill
 */
 
 
@@ -44,6 +43,13 @@
 }
 
 /*+ ▃▃▃  4.- Animacion blinding ▃▃▃*/
+.blinding{
+    animation-name: blinding;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
 @keyframes blinding {
     from{
         background-color: var(--white-color-primary);
@@ -59,18 +65,5 @@
         transform: rotate(0) scale(1);
     }to{
         transform: rotate(360deg) scale(1.3);
-    }
-}
-
-/*+ ▃▃▃  6.- Animacion skill ▃▃▃*/
-@keyframes load-skill {
-    0%{
-        stroke: rgb(66, 66, 66);
-        stroke-dashoffset: 300;
-    }
-    100%{
-        stroke: rgb(23, 204, 83);
-        stroke-dashoffset: calc(300 - ((255*var(--percent))/100));
-        filter: drop-shadow(0 0 5px rgb(23, 204, 83));
     }
 }

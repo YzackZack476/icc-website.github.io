@@ -1,0 +1,69 @@
+/*+  ▃▃▃▃▃▃[INDICE]▃▃▃▃▃▃ */ 
+/*+ 1.- Slider background
+*/
+#chapter4
+    .Slider__background{
+        background-color: #FF6000;
+    }
+
+#chapter4
+    .Slider__content{
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+#chapter4
+    .Slider__content
+        .Content__title{
+            font-weight: 300;
+            color:#454545;
+        }
+#chapter4
+    .Content__storyline{
+        position: relative;
+        width: 100%;
+        height: auto;
+        margin-top: 4rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+#chapter4
+    .Content__storyline
+        .Storyline__node{
+            position: relative;
+            cursor: pointer;
+            width: 5rem;
+            height: 5rem;
+            transition: all 300ms ease-in-out;
+        }
+
+        .Storyline__node:hover{
+            transform: scale(1.3);
+        }
+        .Storyline__node:hover > svg > circle{
+            fill: aqua !important;
+            transition: all 700ms ease-in-out;
+        }
+
+        .Storyline__node:hover > .Node__year{
+            font-weight: 500;
+        }
+
+        .Storyline__node circle{
+            position: absolute;
+            fill: #FFE6C7;
+            transition: all 700ms ease-in-out;
+            filter: drop-shadow(0 0 9px rgba(0,0,0,.5));
+        }
+
+        .Storyline__node .Node__year{
+            position: relative;
+            width: 100%;
+            text-align: center;
+            font-size: 2rem;
+            color: #454545;
+        }

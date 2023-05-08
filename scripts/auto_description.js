@@ -2,8 +2,8 @@
 function sleep(delay) {
     return new Promise(resolve=>setTimeout(resolve,delay));
 }
-const $c1_body_title = document.getElementById('chapter1').querySelectorAll('div')[1];
-const base_template = `<h1  class="body__title"
+const $c1_body_title = document.getElementById('chapter1').querySelector('.Content_description');
+const base_template = `<h1  class="Content__title"
                             data-aos="fade"
                             data-aos-delay="400"
                             data-aos-once="false">
@@ -44,7 +44,7 @@ const mensajes = [
 
 setMessages(mensajes).then(
     () => {
-        const $first_btn = document.querySelectorAll('.body__button')[0];
+        const $first_btn = document.querySelectorAll('.Content__button')[0];
         $first_btn.classList.add('blinding');
         volume_down();
     });

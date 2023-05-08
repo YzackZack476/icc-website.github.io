@@ -5,58 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="img/icon.png">
-    <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/aos.js" defer="true"></script>
     <script src="scripts/autoscroll.js" defer="true"></script>
     <script src="scripts/auto_description.js" defer="true"></script>
     <script src="https://kit.fontawesome.com/044655bfe8.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="styles/default/default.css">
+    <link rel="stylesheet" href="styles/index/general.css">
+    <link rel="stylesheet" href="styles/index/chapter1.css">
+    <link rel="stylesheet" href="styles/index/chapter2.css">
+    <link rel="stylesheet" href="styles/index/chapter3.css">
+    <link rel="stylesheet" href="styles/index/chapter4.css">
+
     <title>My profile</title>
 </head>
 <body>
-    <div class="slices-container">
-        <section class="slice" id="chapter1">
-            <div class="slice__body">
-                <div>
+    <div>
+        <section class="Slider" id="chapter1">
+            <div class="Slider__background Slider__background--black"></div>
+            <div class="Slider__content">
+                <div class="Content_description">
                     <!-- Here Insert Menssagge -->
-                    <!-- <h1 class="body__title" 
+                    <!-- <h1 class="Content__title" 
                         data-aos="fade"
                         data-aos-delay="400"
                         data-aos-once="false">Hey!</h1> -->
                 </div>
-
-                <a class="body__button" 
+                <a class="Content__button" 
                    data-aos="fade-in" 
                    data-aos-delay="600"
                    data-aos-once="false" 
-                   href="#chapter2">next</a>
-
-                <h3 
-                   class="body__leyend"
+                   href="#chapter2">next
+                </a>
+                <h3 class="Content__leyend"
                    data-aos="fade-in" 
                    data-aos-offset="200"
                    data-aos-delay="800"
                    data-aos-easing="ease-in-out"
                    data-aos-mirror="true"
-                   data-aos-once="false">"It's not who I am, but what I do that defines me."</h3>
+                   data-aos-once="false">"It's not who I am, but what I do that defines me."
+                </h3>
             </div>
         </section>
-        <section class="slice" id="chapter2">
+
+        <section class="Slider" id="chapter2">
             <!-- Fondos -->
-            <div class="slice__left_backlog"></div>
-            <div class="slice__right_backlog"></div>
+            <div class="Slider__background Slider__background--left"></div>
+            <div class="Slider__background Slider__background--right"></div>
             <!-- Datos de contacto -->
-            <div class="slice__body">
-                <h1 class="body__title"
+            <div class="Slider__content">
+                <h1 class="Content__title"
                     data-aos="fade" 
-                    data-aos-delay="300">Issac Corona C.</h1>
-                <h3 class="body__leyend"
+                    data-aos-delay="300">Issac Corona C.
+                </h1>
+                <h3 class="Content__leyend"
                     data-aos="flip-left" 
                     data-aos-delay="600">Robotic Engineer | Software Engineer | Data Analyst
                 </h3>
-                <a class="body__button" href="#chapter3">next</a>
-                <div class="body__networks" data-aos="fade-up-right" data-aos-delay="1000">
+                <a class="Content__button" href="#chapter3">next</a>
+                <div class="Content__networks" data-aos="fade-up-right" data-aos-delay="1000">
                     <ul>
                         <li><i class="fa-brands fa-linkedin"></i></li>
                         <li><a href="https://www.linkedin.com/in/issac-corona-cordoba/" target="_blank">https://www.linkedin.com/issac-corona/</a></li></li>
@@ -70,36 +80,168 @@
                 </div>
             </div>
         </section>
-        <section class="slice" id="chapter3">
-            <div class="skills_layout">
-                <div class="skill_wrapper" data-aos="fade" 
-                    data-aos-delay="400">
-                    <div class="skill_percent" style="--percent:90;">
+
+        <section class="Slider" id="chapter3">
+            <div class="Slider__background Slider__background--darker"></div>
+            <div class="Slider__Skill-layout">
+                <!--@ Fronent -->
+                <!-- Skill #1 -->
+                <div id="skill-1" class="Skill" data-aos="fade" data-aos-delay="400">
+                    <div class="Skill__figure" style="--skill-1-percent:90;">
                         <svg viewBox="0 0 100 100">
                             <circle cx="50" cy="50" r="40"/>
                             <circle cx="50" cy="50" r="40"/>
                         </svg>
                     </div>
-                    <div class="skill_data_detail">
-                        <h1 class="percent">90%</h1>
-                        <h6 class="skill_name">HTML</h6>
+                    <div class="Skill__detail">
+                        <h1 class="Detail__percent">90%</h1>
+                        <h6 class="Detail__name">HTML</h6>
                     </div>
                 </div>
-            </div>
 
-            <div class="slice__body">
-                <h1 class="body__title">Skills & Digital Tools</h1>
-                <a class="body__button" href="#chapter1">next</a>
-                <h3 class="body__leyend"
+                <!-- Skill #2 -->
+                <div id="skill-2" class="Skill" data-aos="fade" data-aos-delay="600">
+                    <div class="Skill__figure" style="--skill-2-percent:75;">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="40"/>
+                            <circle cx="50" cy="50" r="40"/>
+                        </svg>
+                    </div>
+                    <div class="Skill__detail">
+                        <h1 class="Detail__percent">75%</h1>
+                        <h6 class="Detail__name">CSS</h6>
+                    </div>
+                </div>
+
+                <!-- Skill #3 -->
+                <div id="skill-3" class="Skill" data-aos="fade" data-aos-delay="800">
+                    <div class="Skill__figure" style="--skill-3-percent:75;">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="40"/>
+                            <circle cx="50" cy="50" r="40"/>
+                        </svg>
+                    </div>
+                    <div class="Skill__detail">
+                        <h1 class="Detail__percent">70%</h1>
+                        <h6 class="Detail__name">JS</h6>
+                    </div>
+                </div>
+
+                <!--@ Backend -->
+                <!-- Skill #4 -->
+                <div id="skill-4" class="Skill" data-aos="fade" data-aos-delay="900">
+                    <div class="Skill__figure" style="--skill-4-percent:67;">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="40"/>
+                            <circle cx="50" cy="50" r="40"/>
+                            <defs>
+                                <linearGradient id="python-gradiente-stroke" x1="0%" y1="0%" x2="100%" y2="0%">
+                                  <stop offset="0%" stop-color="#ffde57" />
+                                  <stop offset="50%" stop-color="#4584b6" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="Skill__detail">
+                        <h1 class="Detail__percent">67%</h1>
+                        <h6 class="Detail__name">PY</h6>
+                    </div>
+                </div>
+
+                <!-- Skill #5 -->
+                <div id="skill-5" class="Skill" data-aos="fade" data-aos-delay="1100">
+                    <div class="Skill__figure" style="--skill-5-percent:80;">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="40"/>
+                            <circle cx="50" cy="50" r="40"/>
+                        </svg>
+                    </div>
+                    <div class="Skill__detail">
+                        <h1 class="Detail__percent">80%</h1>
+                        <h6 class="Detail__name">SQL</h6>
+                    </div>
+                </div>
+
+                <!-- Skill #6 -->
+                <div id="skill-6" class="Skill" data-aos="fade" data-aos-delay="1400">
+                    <div class="Skill__figure" style="--skill-6-percent:100;">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="40"/>
+                            <circle cx="50" cy="50" r="40"/>
+                        </svg>
+                    </div>
+                    <div class="Skill__detail">
+                        <h1 class="Detail__percent">✔</h1>
+                        <h6 class="Detail__name">AE</h6>
+                    </div>
+                </div>
+
+                <!-- Skill #7 -->
+                <div id="skill-7" class="Skill" data-aos="fade" data-aos-delay="1600">
+                    <div class="Skill__figure" style="--skill-7-percent:100;">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="40"/>
+                            <circle cx="50" cy="50" r="40"/>
+                        </svg>
+                    </div>
+                    <div class="Skill__detail">
+                        <h1 class="Detail__percent">✔</h1>
+                        <h6 class="Detail__name">PS</h6>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="Slider__content">
+                <h1 class="Content__title">Skills & Digital Tools</h1>
+                <a class="Content__button" href="#chapter4">next</a>
+                <h3 class="Content__leyend"
                     data-aos="zoom-in-up" data-aos-delay="200">Fight an win.
                 </h3>
             </div>
         </section>
+
+        <section class="Slider" id="chapter4">
+            <div class="Slider__background"></div>
+            <div class="Slider__content">
+                <h1 class="Content__title">Professional Training</h1>
+                <a class="Content__button" 
+                   data-aos="fade-in" 
+                   data-aos-delay="600"
+                   data-aos-once="false" 
+                   href="#chapter1">next
+                </a>
+
+                <div class="Content__storyline">
+                    <div class="Storyline__node">
+                        <h1 class="Node__year">2015</h1>
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="40"/>
+                        </svg>
+                    </div>
+                    <div class="Storyline__node">
+                        <h1 class="Node__year">2018</h1>
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="40"/>
+                        </svg>
+                    </div>
+                    <div class="Storyline__node">
+                        <h1 class="Node__year">2023</h1>
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="40"/>
+                        </svg>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
     </div>
 
     <audio id="player" autoplay>
         <source src="song/Six Seasons - Unicorn Heads.mp3" type="audio/mp3">
     </audio>
-
 </body>
 </html>

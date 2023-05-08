@@ -1,0 +1,228 @@
+/*+  ▃▃▃▃▃▃[INDICE]▃▃▃▃▃▃ */ 
+/*+ 1.- Slider background  
+/*+ 2.- Skills Layout
+/*+ 3.- Skill template
+/*+ 4.- Skill figure
+/*+ 5.- Skill detail / metadata
+/*+ 6.- Skill 1,2,3,4,5,6,7 ...
+*/
+
+#chapter3 
+    .Slider__background--darker{
+        background-color: #271f45;
+    }
+
+#chapter3 
+    .Slider__content{
+        z-index: 2;
+    }
+
+
+#chapter3 
+    .Slider__Skill-layout{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+
+        display: grid;
+        gap: 0;
+        grid-template-columns: repeat(7,1fr);
+        grid-template-rows: repeat(7,1fr);
+        background-color: transparent;
+    }
+
+    .Slider__Skill-layout
+        /** Contenedor de Skill individual */
+        .Skill{
+            position: relative;
+            width: 14rem;
+            height: 14rem;
+            justify-self: center;
+        }
+
+        /** Para la figura del porcentaje */
+        .Skill
+            .Skill__figure{
+                position: absolute;
+                width: 100%;
+                height: 100%;
+            }
+
+        .Skill 
+            .Skill__figure svg{
+                width: 100%;
+                height: 100%;
+            }
+        
+        .Skill 
+            .Skill__figure circle{
+                fill: transparent;
+                stroke: rgb(102, 97, 97);
+                stroke-width: 5;
+            }
+
+        /** Circulo que represetnta nivel de porcentaje */
+        .Skill
+            .Skill__figure circle:nth-child(2){
+                fill: transparent;
+                stroke-width: 4;
+                stroke-dasharray: 300;
+            }
+
+        /* Para los metadatos de los skills */
+        .Skill 
+            .Skill__detail{
+                position: absolute;
+                background-color: transparent;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            /* Porcentaje de la habilidad */
+            .Skill__detail 
+                .Detail__percent{
+                    font-family: 'FontAwesome';
+                    font-size: 3.3rem;
+                }
+                
+            /* Nombre de la habilidad */
+            .Skill__detail 
+                .Detail__name {
+                    font-size: 1.7rem;
+                    font-weight: 700;
+                    color: rgb(136, 125, 125) !important;
+                }
+
+        /* Reset by defail (ignorar) */
+        .Skill .Skill__detail>*{margin: .5rem 0 0 0;top: 0;left: 0;bottom: 0;color: #F4EEE0;}
+
+
+
+/*+  ▃▃▃▃▃▃ [SKILLS] ▃▃▃▃▃▃ */
+    /*+ SKILL #1 */
+    .Slider__Skill-layout
+        /** Setear su posicion */
+        #skill-1.Skill{
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }
+        
+        /** Setear color y porcentaje */
+        #skill-1.Skill 
+            .Skill__figure circle:nth-child(2){
+                stroke: rgb(237, 136, 29);
+                filter: drop-shadow(0 0 5px rgb(255, 218, 207));
+                stroke-dashoffset: calc(300 - ((255*var(--skill-1-percent))/100));
+            }
+
+            
+    /*+ SKILL #2 */
+    .Slider__Skill-layout
+        /** Setear su posicion */
+        #skill-2.Skill{
+            grid-column: 4/5;
+            grid-row: 1/2;
+        }
+        
+        /** Setear color y porcentaje */
+        #skill-2.Skill 
+            .Skill__figure circle:nth-child(2){
+                stroke: rgb(39, 101, 226);
+                filter: drop-shadow(0 0 5px rgb(82, 142, 215));
+                stroke-dashoffset: calc(300 - ((255*var(--skill-2-percent))/100));
+            }
+
+    /*+ SKILL #3 */
+    .Slider__Skill-layout
+        /** Setear su posicion */
+        #skill-3.Skill{
+            grid-column: 6/7;
+            grid-row: 2/3;
+        }
+        
+        /** Setear color y porcentaje */
+        #skill-3.Skill 
+            .Skill__figure circle:nth-child(2){
+                stroke: rgb(240,219,79);
+                filter: drop-shadow(0 0 5px rgb(230, 222, 167));
+                stroke-dashoffset: calc(300 - ((255*var(--skill-3-percent))/100));
+            }
+
+    /*+ SKILL #4 */
+    .Slider__Skill-layout
+        /** Setear su posicion */
+        #skill-4.Skill{
+            grid-column: 3/4;
+            grid-row: 6/7;
+        }
+        
+        /** Setear color y porcentaje */
+        #skill-4.Skill 
+            .Skill__figure circle:nth-child(2){
+                stroke: url(#python-gradiente-stroke);
+                filter: drop-shadow(0 0 5px rgb(230, 222, 167));
+                stroke-dashoffset: calc(300 - ((255*var(--skill-4-percent))/100));
+            }
+
+
+    /*+ SKILL #5 */
+    .Slider__Skill-layout
+        /** Setear su posicion */
+        #skill-5.Skill{
+            grid-column: 5/6;
+            grid-row: 6/7;
+        }
+        
+        /** Setear color y porcentaje */
+        #skill-5.Skill 
+            .Skill__figure circle:nth-child(2){
+                stroke: crimson;
+                filter: drop-shadow(0 0 5px rgb(255, 223, 172));
+                stroke-dashoffset: calc(300 - ((255*var(--skill-5-percent))/100));
+            }
+
+
+    /*+ SKILL #6 */
+    .Slider__Skill-layout
+        /** Setear su posicion */
+        #skill-6.Skill{
+            grid-column: 2/3;
+            grid-row: 5/6;
+        }
+
+        #skill-6 .Detail__percent{
+            color: rgb(150, 20, 220);
+        }
+        
+        /** Setear color y porcentaje */
+        #skill-6.Skill 
+            .Skill__figure circle:nth-child(2){
+                stroke: rgb(150, 20, 220);
+                filter: drop-shadow(0 0 5px rgb(213, 184, 221));
+                stroke-dashoffset: calc(300 - ((255*var(--skill-6-percent))/100));
+            }
+
+
+    /*+ SKILL #7 */
+    .Slider__Skill-layout
+        /** Setear su posicion */
+        #skill-7.Skill{
+            grid-column: 6/7;
+            grid-row: 5/6;
+        }
+
+        #skill-7 .Detail__percent{
+            color: rgb(20, 177, 220);
+        }
+        
+        /** Setear color y porcentaje */
+        #skill-7.Skill 
+            .Skill__figure circle:nth-child(2){
+                stroke: rgb(20, 153, 220);
+                filter: drop-shadow(0 0 5px rgb(213, 184, 221));
+                stroke-dashoffset: calc(300 - ((255*var(--skill-6-percent))/100));
+            }
