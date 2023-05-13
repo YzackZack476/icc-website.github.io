@@ -18,7 +18,7 @@
     .Slider__content
         .Content__title{
             font-weight: 300;
-            color:#454545;
+            color:var(--chapter4-font-color);
         }
 #chapter4
     .Content__storyline{
@@ -53,6 +53,12 @@
             font-weight: 500;
         }
 
+        .Storyline__node:hover > .Node__description{
+            animation-name: unhidden;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+        } 
+
         .Storyline__node circle{
             position: absolute;
             fill: #FFE6C7;
@@ -65,5 +71,46 @@
             width: 100%;
             text-align: center;
             font-size: 2rem;
-            color: #454545;
+            color:var(--chapter4-font-color);
         }
+
+        .Storyline__node
+            .Node__description{
+                position: absolute;
+                width: var(--chapter4-node-description-width);
+                height: auto;
+                margin-top: 1rem;
+
+                padding: 0.5rem 1rem 0.5rem 1rem;
+                
+                transform: translate(-35%, -25%);
+
+                visibility: hidden;
+                display: flex;
+                flex-direction: column;
+                overflow-y: hidden;
+                justify-content: left;
+
+                background: rgba(255, 255, 255, 0.1);
+                backdrop-filter: blur(30px);
+                border: 2px solid rgba(255, 255, 255, 0.1);
+                box-shadow: 0 0 80px rgba(0,0,0,.2);
+                border-radius: 2rem;
+
+                transition: all 800ms ease-in-out;
+            }
+            .Node__description h3{
+                color:var(--chapter4-font-color-secondary);
+                background: none;
+                font-size: 1.3rem;
+                font-weight: 500;
+                text-decoration: underline;
+            }
+
+            .Node__description p{
+                background: none;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                color: #FFE6C7;
+                font-weight: 500;
+            }

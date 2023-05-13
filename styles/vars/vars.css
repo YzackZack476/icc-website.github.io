@@ -25,6 +25,8 @@
     --chapter3-diameter-circle-skill:10rem;
     --chapter3-skill-circle-color: #E4DCCF;
 
-    --chapther3-rotate-skill_1:45deg;
-    --chapther3-rotate-inverted-skill_1:-45deg;
+    --chapter4-font-color:#454545;
+    --chapter4-font-color-secondary:#282525;
+
+    --chapter4-node-description-width:20rem;
 }
