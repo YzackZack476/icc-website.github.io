@@ -11,6 +11,7 @@
     <script src="scripts/aos.js" defer="true"></script>
     <script src="scripts/autoscroll.js" defer="true"></script>
     <script src="scripts/auto_description.js" defer="true"></script>
+    <script src="scripts/generate_apps.js" defer="true"></script>
     <script src="https://kit.fontawesome.com/044655bfe8.js" crossorigin="anonymous"></script>
     
     <link rel="stylesheet" href="styles/default/default.css">
@@ -20,6 +21,7 @@
     <link rel="stylesheet" href="styles/index/chapter3.css">
     <link rel="stylesheet" href="styles/index/chapter4.css">
     <link rel="stylesheet" href="styles/index/chapter5.css">
+    <link rel="stylesheet" href="styles/index/chapter6.css">
 
     <title>My profile</title>
 </head>
@@ -206,12 +208,7 @@
             <div class="Slider__background"></div>
             <div class="Slider__content">
                 <h1 class="Content__title">Professional Training</h1>
-                <a class="Content__button" 
-                   data-aos="fade-in" 
-                   data-aos-delay="600"
-                   data-aos-once="false" 
-                   href="#chapter5">next
-                </a>
+                <a class="Content__button" href="#chapter5">next</a>
                 <h3 class="Content__leyend"
                     data-aos="zoom-in-up" data-aos-delay="200">Always available for new directions.
                 </h3>
@@ -274,20 +271,38 @@
 
         <section class="Slider" id="chapter5">
             <div class="Slider__background"></div>
-            <div class="Slider__Project-layout">              
-           </div>
-
             <div class="Slider__content">
                 <h1 class="Content__title">Projects & Works</h1>
-                <a class="Content__button" href="#chapter1">next</a>
+                <a class="Content__button" href="#chapter6">take a look</a>
                 <h3 class="Content__leyend"
                     data-aos="zoom-in-up" data-aos-delay="200">There is always something new to learn, something new to create.
                 </h3>
             </div>
         </section>
 
+        <section class="Slider" id="chapter6">
+            <div class="Slider__background"></div>
+            <div class="Slider__content">
+                <a class="Content__button" href="#chapter1">go back</a>
+            </div>
+
+            <div id="Slider__Project_layout" class="Slider__Project_layout">
+            </div>
+            
+        </section>
 
     </div>
+
+
+
+
+
+
+
+
+
+
+
 
     <audio id="player" autoplay>
         <source src="song/Six Seasons - Unicorn Heads.mp3" type="audio/mp3">

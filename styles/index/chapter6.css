@@ -1,0 +1,68 @@
+/*+  ▃▃▃▃▃▃[INDICE]▃▃▃▃▃▃ */ 
+/*+ 1.- Slider background  
+/*+ 2.- Prject layout
+*/
+
+#chapter6
+    .Slider__background{
+        background-color: #89375F;
+    }
+
+#chapter6
+    .Slider__content{
+        justify-content: flex-end;
+        align-items: center;
+        bottom: 3rem;
+        z-index: 1;
+    }
+
+#chapter6
+    .Slider__content
+        .Content__button{
+            margin-bottom: 3rem;
+        }
+
+
+#chapter6 .Slider__Project_layout{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    padding: 1rem;
+
+    display: grid;
+    gap: 1.4rem;
+    grid-template-columns: repeat(14,1fr);
+    grid-auto-rows: minmax(10rem, 10rem);
+    justify-content: center;
+    background-color: transparent;
+    z-index: 2;
+
+}
+
+#chapter6 
+    .Slider__Project_layout
+       .project{
+            display: flex;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px;
+            background-color: #dad2d4;
+            box-shadow: 0 0 15px rgba(0,0,0,.7);
+            transition: all 100ms ease-in-out;
+        }
+        
+        .project:hover{
+            transform: scale(1.1);
+        }
+
+        .project a{
+            width: 80%;
+            height: 80%;
+            text-align: center;
+        }
+
+       .project img{
+            width: 100%;
+            height: 100%;
+       }

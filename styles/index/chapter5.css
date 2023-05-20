@@ -12,16 +12,3 @@
     .Slider__content{
         z-index: 2;
     }
-
-#chapter5
-.Slider__Project-layout{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-
-    display: grid;
-    gap: 0;
-    grid-template-columns: repeat(7,1fr);
-    grid-template-rows: repeat(7,1fr);
-    background-color: transparent;
-}
