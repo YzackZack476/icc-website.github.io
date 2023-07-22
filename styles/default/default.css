@@ -1,15 +1,5 @@
 @import url('../vars/vars.css');
 
-::-webkit-scrollbar{
-    display: none;
-}
-
-html{
-    scroll-behavior: smooth;
-    scroll-snap-type: mandatory;
-    scroll-snap-align: start;
-}
-
 *{
     top: 0;
     left: 0;
@@ -25,7 +15,18 @@ html{
     background-color: inherit;
 }
 
+html{
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+    scroll-snap-align: start;
+}
+
 body{
-    overflow-y: scroll;
+    overflow: hidden;
+    scrollbar-width: none; /* Firefox 64+ */
     background-color: rgb(217, 210, 210);
+}
+
+body::-webkit-scrollbar{
+    display: none;
 }
