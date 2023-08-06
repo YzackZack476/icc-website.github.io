@@ -226,3 +226,108 @@
                 filter: drop-shadow(0 0 5px rgb(213, 184, 221));
                 stroke-dashoffset: calc(300 - ((255*var(--skill-6-percent))/100));
             }
+
+
+    /*+ SKILL #8 */
+    .Slider__Skill-layout
+        /** Setear su posicion */
+        #skill-8.Skill{
+            grid-column: 7/8;
+            grid-row: 1/2;
+        }
+
+        #skill-8 .Detail__percent{
+            color: rgb(255, 255, 255);
+        }
+        
+        /** Setear color y porcentaje */
+        #skill-8.Skill 
+            .Skill__figure circle:nth-child(2){
+                stroke: rgb(220, 117, 20);
+                filter: drop-shadow(0 0 5px rgb(213, 184, 221));
+                stroke-dashoffset: calc(300 - ((255*var(--skill-8-percent))/100));
+            }
+
+
+    /*+ SKILL #9 */
+    .Slider__Skill-layout
+        /** Setear su posicion */
+        #skill-9.Skill{
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+
+        #skill-9 .Detail__percent{
+            color: rgb(255, 255, 255);
+        }
+        
+        /** Setear color y porcentaje */
+        #skill-9.Skill 
+            .Skill__figure circle:nth-child(2){
+                stroke: rgb(20, 207, 220);
+                filter: drop-shadow(0 0 5px rgb(213, 184, 221));
+                stroke-dashoffset: calc(300 - ((255*var(--skill-8-percent))/100));
+            }
+
+
+
+    /*+ SKILL #10 */
+    .Slider__Skill-layout
+        /** Setear su posicion */
+        #skill-10.Skill{
+            grid-column: 1/2;
+            grid-row: 6/6;
+        }
+
+        #skill-10 .Detail__percent{
+            color: #0db7ed;
+        }
+        
+        /** Setear color y porcentaje */
+        #skill-10.Skill 
+            .Skill__figure circle:nth-child(2){
+                stroke: #42a5f5;
+                filter: drop-shadow(0 0 5px rgb(213, 184, 221));
+                stroke-dashoffset: calc(300 - ((255*var(--skill-6-percent))/100));
+            }
+
+
+    /*+ SKILL #11 */
+    .Slider__Skill-layout
+        /** Setear su posicion */
+        #skill-11.Skill{
+            grid-column: 7/8;
+            grid-row: 6/6;
+        }
+
+        #skill-11 .Detail__percent{
+            color: #FFA41B;
+        }
+        
+        /** Setear color y porcentaje */
+        #skill-11.Skill 
+            .Skill__figure circle:nth-child(2){
+                stroke: #FD8D14;
+                filter: drop-shadow(0 0 5px rgb(213, 184, 221));
+                stroke-dashoffset: calc(300 - ((255*var(--skill-6-percent))/100));
+            }
+
+    
+        .Slider__Skill-layout
+            /** Setear su posicion */
+            #skill-12.Skill{
+                grid-column: 1/2;
+                grid-row: 3/5;
+            }
+
+            #skill-12 .Detail__percent{
+                color: #c92c6de3;
+            }
+            
+            /** Setear color y porcentaje */
+            #skill-12.Skill 
+                .Skill__figure circle:nth-child(2){
+                    stroke: #C92C6D;
+                    filter: drop-shadow(0 0 5px rgba(213, 184, 221,.5));
+                    stroke-dashoffset: calc(300 - ((255*var(--skill-6-percent))/100));
+                }

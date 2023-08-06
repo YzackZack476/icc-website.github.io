@@ -19,6 +19,11 @@
         z-index: 0;
     }
 
+#chapter2 
+    .Content__title a{
+        font-size: 7rem;
+    }
+
 /** Contenido de redes sociales */
 #chapter2 
     .Slider__content
