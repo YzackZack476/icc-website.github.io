@@ -57,8 +57,8 @@
   <b>Top langs</b>
 </h4>
 <p align= "center">
-  <img height= "150" src="https://github-readme-stats.vercel.app/api?username=YzackZack476&theme=react&show_icons=true&include_all_commits=true" />
-  <img height= "150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YzackZack476&theme=react&layout=compact" />
+  <img height= "150" src="https://github-readme-stats.vercel.app/api?username=icc944&theme=react&show_icons=true&include_all_commits=true" />
+  <img height= "150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=icc944&theme=react&layout=compact" />
 </p>
 
 ### 🧰 Frameworks and Libraries
