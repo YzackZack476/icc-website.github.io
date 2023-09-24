@@ -110,6 +110,9 @@
             grid-column: 2/3;
             grid-row: 2/3;
         }
+         #skill-1 .Detail__percent{
+            color: rgb(237, 136, 29);
+        }
         
         /** Setear color y porcentaje */
         #skill-1.Skill 
@@ -128,6 +131,10 @@
             grid-row: 1/2;
         }
         
+        #skill-2 .Detail__percent{
+            color: rgb(39, 101, 226);
+        }
+        
         /** Setear color y porcentaje */
         #skill-2.Skill 
             .Skill__figure circle:nth-child(2){
@@ -144,6 +151,10 @@
             grid-row: 2/3;
         }
         
+        #skill-3 .Detail__percent{
+            color: rgb(240,219,79);
+        }
+
         /** Setear color y porcentaje */
         #skill-3.Skill 
             .Skill__figure circle:nth-child(2){
@@ -158,6 +169,10 @@
         #skill-4.Skill{
             grid-column: 3/4;
             grid-row: 6/7;
+        }
+
+        #skill-4 .Detail__percent{
+            color: rgb(39, 101, 226);
         }
         
         /** Setear color y porcentaje */
@@ -177,6 +192,10 @@
             grid-row: 6/7;
         }
         
+        #skill-5 .Detail__percent{
+            color: crimson;
+        }
+
         /** Setear color y porcentaje */
         #skill-5.Skill 
             .Skill__figure circle:nth-child(2){
@@ -237,7 +256,7 @@
         }
 
         #skill-8 .Detail__percent{
-            color: rgb(255, 255, 255);
+            color: rgb(220, 117, 20);
         }
         
         /** Setear color y porcentaje */
@@ -258,7 +277,7 @@
         }
 
         #skill-9 .Detail__percent{
-            color: rgb(255, 255, 255);
+            color: rgb(20, 207, 220);
         }
         
         /** Setear color y porcentaje */

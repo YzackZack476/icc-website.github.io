@@ -22,7 +22,7 @@ html{
 }
 
 body{
-    overflow: unset;
+    overflow: hidden;
     scrollbar-width: none;
     background-color: rgb(217, 210, 210);
 }
