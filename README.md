@@ -1,5 +1,5 @@
 # <p align="center">👋Hello!, My name is Issac C.C. 👋</p>
-<a href="https://yzackzack476.github.io/icc-website.github.io/" target="_blank">Take a look to my website</a>
+<a href="https://icc944.github.io/icc-website.github.io/" target="_blank">Take a look to my website</a>
 
 <p align="center"><img src="https://thumbs.gfycat.com/GoodnaturedFondGaur-size_restricted.gif" alt="Synthwave" height="300" width="500"></p>
 
@@ -57,8 +57,8 @@
   <b>Top langs</b>
 </h4>
 <p align= "center">
-  <img height= "150" src="https://github-readme-stats.vercel.app/api?username=YzackZack476&theme=react&show_icons=true&include_all_commits=true" />
-  <img height= "150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YzackZack476&theme=react&layout=compact" />
+  <img height= "150" src="https://github-readme-stats.vercel.app/api?username=icc944&theme=react&show_icons=true&include_all_commits=true" />
+  <img height= "150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=icc944&theme=react&layout=compact" />
 </p>
 
 ### 🧰 Frameworks and Libraries
