@@ -23,7 +23,7 @@ html{
 
 body{
     overflow: hidden;
-    scrollbar-width: none; /* Firefox 64+ */
+    scrollbar-width: none; 
     background-color: rgb(217, 210, 210);
 }
 
